@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  margin: 10px;
+}
+
+#bg-container {
+  background-image: linear-gradient(To right, #ffffff, #ffffff, black);
+}
+
+.logosize {
+  height: 50px;
+  width: 60px;
+  box-sizing: border-box;
+}
+
+.logosize:hover {
+  height: 70px;
+  width: 80px;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  font-family: "cardo";
+}
+
+@media (max-width: 767px) {
+  .bg-img1 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220737071/189214453-bottle-of-natural-serum-with-lemons-and-plant-leaves-on-beige-background.jpg");
+    background-size: cover;
+    width: 100vw;
+    border-radius: 10px;
+  }
+
+  .bg-img2 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220733933/189012121-bottles-of-natural-serum-and-plant-leaves-on-green-background.jpg");
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .bg-img3 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220737090/189214655-bottle-of-natural-serum-spoons-with-pomegranate-honey-and-aloe-leaves-on-white-background.jpg");
+    background-size: cover;
+    border-radius: 10px;
+  }
+}
+
+.carousel-peragraph-mater {
+  color: #2e2d2d;
+  font-size: 16px;
+  max-width: 350px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.carousel-peragraph-mater:hover {
+  font-size: 20px;
+  cursor: move;
+}
+
+.carousel-heading-mater {
+  max-width: 250px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin-top: 10vh;
+  font-size: 30px;
+}
+
+.carousel-heading-mater:hover {
+  text-shadow: 2px 2px 3px gray;
+}
+
+.carousel-heading2-mater {
+  color: black;
+  padding-left: 30px;
+  font-size: 25px;
+  font-family: bree serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .bg-img1 {
+    background-image: url("https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .bg-img2 {
+    background-image: url("https://images.unsplash.com/photo-1629198688000-71f23e745b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .bg-img3 {
+    background-image: url("https://static01.nyt.com/images/2019/04/10/fashion/10skin-german-beauty/10skin-german-beauty-videoSixteenByNineJumbo1600.jpg");
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .carousel-heading-mater {
+    margin-top: 20vh;
+    color: #f70783;
+  }
+}
+
+.carousel-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.rupees {
+  color: red !important;
+}
+
+.clr-nav {
+  color: #07aef5;
+}
+
+.carousel-btn-center {
+  padding-left: 30px;
+}
+
+.explore-menu-section {
+  background-color: white;
+}
+
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.menu-item-image {
+  border-radius: 16px;
+}
+
+.menu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu-item-card {
+  border-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .menu-bg-img1 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220737064/189901451-bottle-of-natural-serum-spoon-with-goji-berries-thyme-and-pomegranate-on-red-background.jpg");
+    background-size: cover;
+  }
+
+  .menu-bg-img2 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220732050/188957818-bottle-of-natural-serum-and-alstroemeria-flower-on-lilac-background.jpg");
+    background-size: cover;
+  }
+
+  .menu-bg-img3 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220731917/188957364-female-hand-with-bottles-of-natural-serum-and-flower-on-color-background-closeup.jpg");
+    background-size: cover;
+  }
+
+  .menu-heading-mater {
+    color: black;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .menu-heading-mater:hover {
+    color: red;
+    text-shadow: 2px 2px 3px pink;
+  }
+
+  .explore-menu-btn1 {
+    color: white !important;
+  }
+
+  .explore-menu-btn1:hover {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-heading-mater:hover {
+    color: red;
+    text-shadow: 2px 2px 3px pink;
+  }
+
+  .explore-menu-btn1:hover {
+    font-size: 20px;
+  }
+
+  .menu-bg-img1 {
+    background-image: url("https://previews.123rf.com/images/whitebearstudio1/whitebearstudio12105/whitebearstudio1210503263/168574898-a-set-of-beauty-products-for-skin-or-hair-care-taking-care-of-the-body.jpg");
+    background-size: cover;
+  }
+
+  .menu-bg-img2 {
+    background-image: url("https://previews.123rf.com/images/serezniy/serezniy2207/serezniy220735834/189059216-bottle-of-natural-serum-with-lemon-slices-almond-nuts-flower-and-coffee-beans-on-white-background.jpg");
+    background-size: cover;
+  }
+
+  .menu-bg-img3 {
+    background-image: url("https://previews.123rf.com/images/tanyalovus/tanyalovus2101/tanyalovus210100461/162328098-cosmetic-cream-rose-flower-on-a-colored-background.jpg");
+    background-size: cover;
+  }
+
+  .menu-heading-mater {
+    color: black;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.btn {
+  margin-bottom: 8vh !important;
+  margin-left: 10vw;
+}
+
+.explore-menu-btn1 {
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  border-radius: 13px;
+  height: 40px;
+  width: 140px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-color: goldenrod;
+}
+
+.products-heading {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.products-offer-percentace {
+  color: #fc14ce;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.products-offer-percentace:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.products-price-drop {
+  text-decoration: line-through;
+  color: #8f8b8e;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.products-scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.Products-checked {
+  color: orange;
+}
+
+.Products-item-card {
+  background-color: #f2f4f5;
+  text-align: center;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.products-rupees {
+  color: red !important;
+  font-size: 14px;
+}
+
+.products-price {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.products-price-size {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 2px;
+  font-style: italic;
+}
+
+.products-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wcu-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: center;
+}
+
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+
+.wcu-card-image {
+  width: 120px;
+  height: 105px;
+}
+
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.skin-section {
+  background-color: #f9fbfe;
+}
+
+@media (max-width: 767px) {
+  .skin-section-img {
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skin-section-img {
+    width: 270px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+}
+
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.delivery-and-payment-section {
+  background-color: white;
+}
+
+.delivery-and-payment-section-img {
+  width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+
+.thanking-customers-section {
+  background-image: radial-gradient(#fff8db, orange);
+  border-radius: 10px;
+}
+
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.thanking-customers-section-img:hover {
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+  color: #d0b200;
+  font-weight: 800;
+}
+
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.about-bg-container {
+  background-color: #f2f2f2;
+}
+
+.bottom-support {
+  background-color: grey;
+  height: 50%;
+  background-size: cover;
+  padding: 20px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.moretodis-imgsize {
+  height: 300px;
+}
+
+.moretodis-imgsize:hover {
+  height: 250px;
+}
+
+.MoreToDiscover-heading {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.moretodis-imgsize-dif {
+  height: 300px;
+}
+
+.moretodis-imgsize-dif:hover {
+  height: 350px;
+}
+
+.moretodis-imgsize-dif-2 {
+  height: 500px;
+}
+
+.moretodis-imgsize-dif-2:hover {
+  height: 550px;
+}
+
+.green-time {
+  color: green;
+}
+
+.about-color-discription {
+  color: #7b8794;
+}
+
+.about-heading {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .about-Skincare {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .row-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.button-row-type {
+  display: flex;
+}
+
+.about-Skincare {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.follow-us-section {
+  background-color: white;
+}
+
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  transition: all 2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 15px;
+}
+
+.back-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  transition: all 3s;
+  background-image: radial-gradient(#fff8db, orange);
+  margin: 10px;
+  margin-top: 50px;
+  border-color: gray;
+}
+
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+
+.subscribe-btn {
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+}
