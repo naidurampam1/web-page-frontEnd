@@ -1,0 +1,156 @@
+body {
+  font-family: serif;
+  font-style: oblique;
+  padding: 10px;
+}
+
+.RESUME {
+  font-size: 12px;
+  text-align: center;
+}
+
+.myName {
+  font-family: Sans-Serif;
+
+  font-size: 20px;
+  text-shadow: 2px 2px 4px lightgreen;
+}
+
+@media (min-width: 770px) {
+  .sizeOftext {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .myName {
+    font-weight: bold;
+  }
+
+  .RESUME {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sizeOftext {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+}
+
+#time {
+  color: red;
+}
+
+.container {
+  position: relative;
+  /* Ensures the timer stays within this container */
+  border: 5px solid;
+  border-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-image-slice: 1;
+  border-radius: 15px;
+  padding: 20px;
+
+  box-shadow: 5px 7px 50px 17px lightblue;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.contact-info a {
+  color: orange;
+  text-decoration: none;
+}
+
+#viewing-time {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  /* Ensure text color is readable */
+}
+
+.heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  /* Make all headings bold */
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.technical-skills,
+.personal-projects,
+.education,
+.certifications,
+.internship {
+  margin-bottom: 20px;
+}
+
+.technical-skills ul,
+.personal-projects ul,
+.education ul,
+.certifications ul,
+.internship ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.technical-skills li,
+.personal-projects li,
+.education li,
+.certifications li,
+.internship li {
+  margin-bottom: 5px;
+}
+
+.technical-skills b,
+.personal-projects b,
+.education b {
+  font-weight: bold;
+}
+
+.personal-projects .project-name {
+  color: #d81b60;
+  font-weight: bold;
+}
+
+.education .college-name {
+  font-weight: bold;
+}
+
+.education .year {
+  color: #ff5722;
+}
+
+.education .percentage {
+  font-weight: bold;
+  color: #1cb8d4;
+}
+
+.certifications ul li,
+.internship ul li {
+  margin-bottom: 5px;
+}
